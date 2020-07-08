@@ -1,0 +1,124 @@
+@import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css");
+#search {
+    text-align: center;
+    margin: 100px;
+    padding: 110px 260px 110px 260px;
+}
+
+.navBar {
+    text-align: right;
+    margin: 10px;
+}
+
+.navBar>a:hover {
+    text-decoration: none;
+}
+
+.topBtn {
+    padding: 5px;
+}
+
+#searchBox {
+    width: 550px;
+    height: 40px;
+    margin: 25px;
+    border-radius: 25px;
+    border: 1px solid lightgray;
+}
+
+#searchBox:hover {
+    outline: none !important;
+    border: 1px solid darkgrey;
+}
+
+#searchBox:focus {
+    outline: none !important;
+    border: 1px solid darkgrey;
+}
+
+#logo {
+    width: 230px;
+    right: 10px;
+    text-align: center;
+    margin: auto;
+}
+
+.Btn {
+    width: 140px;
+    height: 40px;
+    padding: 2px;
+    margin: 4px;
+    font-size: small;
+    border: none;
+    border-radius: 5px;
+    color: dimgrey;
+    outline: none !important;
+}
+
+a.luckyBtn {
+    font-family: sans-serif;
+    background-color: aqua;
+}
+
+p~a {
+    margin-left: 10px;
+}
+
+footer,
+.footerImage {
+    margin-top: 140px;
+    padding: 0px;
+    font-family: Arial;
+    font-size: 14px;
+}
+
+.footerImage {
+    margin-top: 180px;
+}
+
+.rowOne,
+.rowTwo {
+    height: 35px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #f2f2f2;
+    border-top: 0.5px solid #eae9e9;
+}
+
+.rowOne>p {
+    margin-left: 25px;
+    color: dimgrey;
+}
+
+.rowTwo {
+    display: flex;
+    margin-left: 0;
+    justify-content: space-between;
+}
+
+.businessInfo,
+.miscellaneous {
+    margin-left: 0px;
+    list-style: none;
+}
+
+.businessInfo {
+    padding-left: 25px;
+}
+
+.miscellaneous {
+    padding-right: 5px;
+}
+
+.businessInfo>li,
+.miscellaneous>li {
+    float: left;
+    margin-right: 30px;
+}
+
+.businessInfo>li>a,
+.miscellaneous>li a {
+    color: dimgrey;
+}

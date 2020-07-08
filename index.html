@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Referencing Glyphicons css on Bootstrap CDN -->
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css">
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <!-- End of Bootstrap Js -->
+
+    <!-- Regular JavaScript -->
+    <script src="jquery-3.5.1.min.js"></script>
+    <!-- Personal Css -->
+    <link href="index.css" rel="stylesheet" type="text/css">
+
+    <title>Google Search</title>
+</head>
+
+<body>
+    <nav class="navBar">
+        <a class="topBtn" href="imageSearch.html">Image Search</a>
+        <a class="topBtn" href="advancedSearch.html">Advanced Search</a>
+    </nav>
+
+    <form id="search" action="https://google.com/search">
+        <img id="logo" src="google1.png">
+        <input id="searchBox" type="text" name="q">
+        <br>
+        <button id="searchBtn" class="Btn" type="submit">Google Search</button>
+        <input id="luckyBtn" class="Btn" type="submit" value="I'm Feeling Lucky" name="btnI">
+    </form>
+</body>
+
+<footer class="footer">
+    <div class="rowOne">
+        <p>India</p>
+    </div>
+
+    <div class="rowTwo">
+        <div class="leftSide">
+            <ul class="businessInfo">
+                <li><a href="https://www.google.com/intl/en_sg/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Advertising</a></li>
+                <li><a href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1">Business</a></li>
+                <li><a href="https://about.google/?utm_source=google-SG&utm_medium=referral&utm_campaign=hp-footer&fg=1">About</a></li>
+                <li><a href="https://google.com/search/howsearchworks/?fg=1">How Search Works</a></li>
+            </ul>
+        </div>
+
+        <div class="rightSide">
+            <ul class="miscellaneous">
+                <li><a href="https://policies.google.com/privacy?fg=1">Privacy</a></li>
+                <li><a href="https://policies.google.com/terms?fg=1">Terms</a></li>
+                <li><a href="https://www.google.com/preferences?hl=en">Settings</a></li>
+            </ul>
+        </div>
+    </div>
+</footer>
+
+<script>
+    // // Alternative to HTML is -> Javascript Logic for "I'm Feeling Lucky" Button
+    // $('#luckyBtn').click( function() {
+    //                                     var searchTerm = $('#searchBox').val();
+    //                                     window.location.replace('https://google.com/search?q='+searchTerm+'&btnI');
+    //                                  });
+</script>
+
+</html>

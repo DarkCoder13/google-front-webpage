@@ -1,0 +1,119 @@
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f2f2f2;
+}
+
+ul>li {
+    list-style: none;
+    float: left;
+    padding-bottom: 15px;
+}
+
+.leftSide {
+    height: 50px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top: 0.5px solid #eae9e9;
+}
+
+.rightSide>ul>li {
+    margin-right: 30px;
+    padding-top: 15px;
+}
+
+#logo {
+    width: 100px;
+    margin-left: 30px;
+}
+
+.titleHeader {
+    height: 70px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: white;
+    border-top: 0.5px solid #eae9e9;
+    border-bottom: 0.5px solid #eae9e9;
+}
+
+.titleHeader>p {
+    font-size: 15pt;
+    margin-top: 12px;
+    margin-left: 30px;
+    color: indianred;
+}
+
+.advancedSearch {
+    margin: 40px;
+}
+
+footer {
+    margin-top: 300px;
+}
+
+.rowOne,
+.rowTwo {
+    height: 40px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #f2f2f2;
+    border-top: 0.5px solid #eae9e9;
+}
+
+.rowOne>p {
+    margin-left: 40px;
+    color: dimgrey;
+}
+
+.miscellaneous {
+    margin-bottom: 0px;
+}
+
+.miscellaneous>li>a {
+    margin-right: 40px;
+    color: dimgrey;
+}
+
+.colOneHeader {
+    margin-right: 30px;
+    margin-bottom: 20px;
+    font-size: 12pt;
+    font-weight: normal;
+}
+
+.colThreeHeader {
+    margin-left: 20px;
+    font-size: 10pt;
+    font-weight: bold;
+    color: dimgrey;
+}
+
+.form-control {
+    width: 550px;
+    height: 30px;
+}
+
+.colOne {
+    margin-right: 30px;
+    margin-bottom: 20px;
+    font-size: 10pt;
+}
+
+.colThree {
+    margin-left: 20px;
+    font-size: 8pt;
+}
+
+#searchBtn {
+    width: 130px;
+    height: 30px;
+    font-weight: bold;
+    font-size: 9pt;
+    margin-left: 600px;
+}
